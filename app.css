@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+#main {
+    margin: auto;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#chessBoard {
+    align-self: center;
+}
+
+.tableCell {
+    height: 50px;
+    width: 50px;
+    border: solid 1px black;
+}
+
+.whiteCell {
+    background-color: white;
+}
+
+.blackCell {
+    background-color: black;
+}
+
